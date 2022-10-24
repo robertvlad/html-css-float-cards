@@ -28,6 +28,7 @@ h1{
     text-align: center;
     font-weight: 700;
     color: rgb(98, 98, 98);
+    margin-bottom: 30px;
 }
 
 
@@ -49,4 +50,35 @@ h1{
     color: rgb(255, 255, 255);
     background-color: rgb(15, 14, 23);
     box-shadow: 0 0 10px 5px rgb(169, 169, 169);
+}
+
+.img_profile{
+    width: 100px;
+    float: left;
+}
+
+.info_contact{
+    float: right;
+    width: calc(100% - 100px);
+}
+
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info_contact h3{
+    text-transform: uppercase;
+    padding: 8px;
+
+}
+
+.info_contact p{
+    padding: 8px;
+}
+
+.info_contact a{
+    color: rgb(4, 4, 254);
+    padding: 0 8px;
 }
