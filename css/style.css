@@ -34,7 +34,6 @@ h1{
 /* Cards */
 
 .col{
-    background-color: rgb(15, 14, 23);
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
@@ -44,4 +43,10 @@ h1{
     content: "";
     display: table;
     clear: both;
+}
+
+.card{
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 14, 23);
+    box-shadow: 0 0 10px 5px rgb(169, 169, 169);
 }
